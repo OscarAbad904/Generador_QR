@@ -15,7 +15,7 @@ def main():
     Size = sys.argv[3]
 
     QRCreate(TextoQR, RutaQR, Size)
-    print(f"¡¡¡Código QR creado exitosamente!!!\nEn el archivo: {RutaQR}")
+    print(f"¡¡¡Código QR creado exitosamente!!!\nSe ha generado el archivo: {RutaQR}")
 
 if __name__ == "__main__":
-    main() 
+    main()
