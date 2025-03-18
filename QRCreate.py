@@ -1,5 +1,6 @@
 import pyqrcode
 import sys
+import flask
 
 def QRCreate(TextoQR, RutaQR, Size):
     qr = pyqrcode.create(TextoQR)
